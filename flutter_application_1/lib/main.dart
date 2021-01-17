@@ -59,7 +59,13 @@ class MyApp extends StatelessWidget {
                     width: 200,
                     margin: EdgeInsets.all(20),
                     child: Text(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nisl nec mauris faucibus luctus non et neque. Donec rhoncus risus sit amet tellus pretium, eget condimentum nisl tempus. Ut interdum, nisl mattis gravida placerat, purus libero tristique libero, in consequat ipsum velit sed elit."),
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nisl nec mauris faucibus luctus non et neque. Donec rhoncus risus sit amet tellus pretium, eget condimentum nisl tempus. Ut interdum, nisl mattis gravida placerat, purus libero tristique libero, in consequat ipsum velit sed elit.",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                     decoration: BoxDecoration(
                       color: Colors.teal,
                       gradient:

@@ -54,11 +54,17 @@ class s2 extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(8),
                     alignment: Alignment.center,
-                    height: 200,
+                    height: 100,
                     width: 200,
                     margin: EdgeInsets.all(20),
                     child: Text(
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nisl nec mauris faucibus luctus non et neque. Donec rhoncus risus sit amet tellus pretium, eget condimentum nisl tempus. Ut interdum"),
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu nisl nec mauris faucibus luctus non et neque. Donec rhoncus risus sit amet tellus pretium,",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                        ),
                     decoration: BoxDecoration(
                       color: Colors.teal,
                       gradient:
@@ -126,7 +132,9 @@ class s2 extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       onPressed: () {},
-                      child: Text("Previous"),
+                      child: Text(
+                        "Previous"
+                        ),
                       ),
                     ElevatedButton(
                       onPressed: () {},
